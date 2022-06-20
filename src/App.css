@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+input{
+  width:-webkit-fill-available;
+  max-width: 190px;
+  margin: 0px 3px;
+  border: 1px solid #ccc;
+}
+
+.ListItemText{
+  font-size: 5.5px;
+}
+
+h1{
+  font-size: 40.5px;
+  font-weight: bold;
+  color: #3177d3;
+  font-family: 'Roboto', sans-serif;
+}
+
+#main-list{
+  border-style: solid;
+  border-color: black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 30%;
+  max-width: 30%;
+  min-width: 30%;
+  max-height: 85%;
+}
+
+.paper{
+  box-shadow: none !important;
+}
+
+body{
+  background-color: #9dfcfcb7;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(116, 114, 219, 0.582);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#408080;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(126, 125, 125, 0.151);
+}
